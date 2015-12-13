@@ -24,6 +24,8 @@ dependencies {
   compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
   compile group: 'org.springframework.boot', name: 'spring-boot-starter-batch'
   
+  compile group: 'org.hsqldb', name: 'hsqldb'
+  
   testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test'
 }
 
